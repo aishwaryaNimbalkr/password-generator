@@ -1,0 +1,110 @@
+.height{
+  height: 42rem;
+  background-color: blue;
+  background: linear-gradient(to right,rgb(33, 33, 83),blue,purple);
+  padding-top: 1rem;
+  
+}
+#inner{
+  background-color: #0a0e31;
+  width: 32%;
+  margin: auto;
+  margin-top: 3rem;
+  
+  padding-bottom: 1rem;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+
+}
+.mainInner{
+  
+  width: 90%;
+  margin: auto;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+}
+.out{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.showpass{
+  background-color: #1d2141;
+  padding: 0px 12px 0px 12px;
+  height: 2.6rem;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: space-between;
+  width: 85%;
+  
+}
+.settings{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 11px;
+  row-gap: 1rem;
+  
+}
+label{
+  display: flex;
+  justify-content: space-between;
+}
+.level{
+  background-color: #1d2141;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.buttonp{
+  width: 70%;
+  height: 2.5rem;
+  margin: auto;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(to right,blue,purple);
+  cursor: pointer;
+}
+.buttonp:hover{
+  background: linear-gradient(to right,purple,blue);
+}
+.buttonp:active{
+  transform: scale(0.9);
+}
+
+.copee:hover{
+color: red;
+transform: scale(1.1);
+}
+.copee:active{
+  color: lightgreen;
+  transform: scale(0.9);
+}
+
+@media screen and (max-width:900px) {
+  #inner{
+      width: 80%;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  #inner{
+      width: 90%;
+  }
+}
+@media screen and (max-width:1024px) {
+  .height{
+      height: 69.5rem;
+  }
+  #inner{
+      margin-top:7rem;
+    }
+}
